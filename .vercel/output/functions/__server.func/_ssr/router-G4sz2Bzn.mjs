@@ -142,7 +142,7 @@ ${urls}
     }
   }
 });
-const $$splitComponentImporter = () => import("./index-Cs7epyXU.mjs");
+const $$splitComponentImporter = () => import("./index-XH4aFLqz.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{

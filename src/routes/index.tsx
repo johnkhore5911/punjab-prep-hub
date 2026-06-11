@@ -227,7 +227,7 @@ function Home() {
       </section>
 
       {/* CATEGORIES */}
-      <section id="categories" className="border-t border-border/60 bg-surface py-20 sm:py-28">
+      {/*<section id="categories" className="border-t border-border/60 bg-surface py-20 sm:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mb-12 flex flex-wrap items-end justify-between gap-4">
             <div>
@@ -259,7 +259,7 @@ function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* FEATURED */}
       <section id="featured" className="py-20 sm:py-28">

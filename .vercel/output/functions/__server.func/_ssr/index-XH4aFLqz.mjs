@@ -72,39 +72,6 @@ const BESTSELLERS = [{
   price: 799,
   cover: bookPspcl
 }];
-const CATEGORIES = [{
-  name: "Punjab Police",
-  count: 42,
-  accent: "from-blue-500/20 to-blue-900/10"
-}, {
-  name: "PPSC",
-  count: 28,
-  accent: "from-emerald-500/20 to-emerald-900/10"
-}, {
-  name: "Patwari",
-  count: 36,
-  accent: "from-amber-500/20 to-amber-900/10"
-}, {
-  name: "Clerk & Steno",
-  count: 19,
-  accent: "from-rose-500/20 to-rose-900/10"
-}, {
-  name: "PSPCL",
-  count: 24,
-  accent: "from-violet-500/20 to-violet-900/10"
-}, {
-  name: "Previous Year Papers",
-  count: 64,
-  accent: "from-cyan-500/20 to-cyan-900/10"
-}, {
-  name: "Mock Tests",
-  count: 51,
-  accent: "from-fuchsia-500/20 to-fuchsia-900/10"
-}, {
-  name: "Bundles & Combos",
-  count: 12,
-  accent: "from-orange-500/20 to-orange-900/10"
-}];
 const REASONS = [{
   icon: Check,
   title: "Updated Syllabus",
@@ -299,37 +266,6 @@ function Home() {
         }) })
       ] })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "categories", className: "border-t border-border/60 bg-surface py-20 sm:py-28", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-7xl px-4 sm:px-6", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-12 flex flex-wrap items-end justify-between gap-4", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-3 font-mono text-xs uppercase tracking-[0.2em] text-gold", children: "01 · Categories" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-3xl tracking-tight sm:text-4xl", children: "Browse by examination" })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#", className: "text-sm font-semibold text-foreground underline-offset-4 hover:underline", children: "View all exams →" })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4", children: CATEGORIES.map((c, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(motion.a, { href: "#", initial: {
-        opacity: 0,
-        y: 16
-      }, whileInView: {
-        opacity: 1,
-        y: 0
-      }, viewport: {
-        once: true,
-        margin: "-50px"
-      }, transition: {
-        delay: i * 0.04,
-        duration: 0.5
-      }, className: "group relative overflow-hidden rounded-2xl border border-border bg-card p-5 transition hover:border-gold/40 hover:shadow-card sm:p-6", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `absolute inset-0 -z-10 bg-gradient-to-br opacity-0 transition-opacity group-hover:opacity-100 ${c.accent}` }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mb-12 grid size-10 place-items-center rounded-xl bg-gold/10 text-gold", children: /* @__PURE__ */ jsxRuntimeExports.jsx(BookOpen, { className: "size-5" }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold tracking-tight text-foreground", children: c.name }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "mt-1 text-xs text-muted-foreground", children: [
-          c.count,
-          " resources"
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowRight, { className: "absolute right-4 top-4 size-4 -rotate-45 text-muted-foreground transition group-hover:rotate-0 group-hover:text-gold" })
-      ] }, c.name)) })
-    ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "featured", className: "py-20 sm:py-28", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-7xl px-4 sm:px-6", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto mb-14 max-w-2xl text-center", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-3 font-mono text-xs uppercase tracking-[0.2em] text-gold", children: "02 · Featured" }),
