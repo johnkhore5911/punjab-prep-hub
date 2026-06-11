@@ -142,17 +142,17 @@ ${urls}
     }
   }
 });
-const $$splitComponentImporter = () => import("./index-oaC_ja4M.mjs");
+const $$splitComponentImporter = () => import("./index-Cs7epyXU.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{
-      title: "Sikhya — Crack Punjab Government Exams with Confidence"
+      title: "Smart Book Store — Crack Punjab Government Exams with Confidence"
     }, {
       name: "description",
       content: "Premium books, updated syllabus, previous year papers and expert preparation guides for Punjab Police, Patwari, Clerk, PPSC and PSPCL exams."
     }, {
       property: "og:title",
-      content: "Sikhya — Premium Punjab Government Exam Bookstore"
+      content: "Smart Book Store — Premium Punjab Government Exam Bookstore"
     }, {
       property: "og:description",
       content: "Trusted by thousands of successful aspirants across Punjab."

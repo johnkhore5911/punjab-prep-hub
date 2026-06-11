@@ -133,7 +133,7 @@ const REASONS = [{
 const TESTIMONIALS = [{
   name: "Sarabjit Singh",
   exam: "Rank 42 — Punjab Police SI",
-  quote: "Nearly 70% of GK in the actual paper was traceable to the Sikhya guide. Unmatched precision.",
+  quote: "Nearly 70% of GK in the actual paper was traceable to the Smart Book Store guide. Unmatched precision.",
   initials: "SS"
 }, {
   name: "Amrit Kaur",
@@ -192,7 +192,7 @@ function Home() {
       /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "#", className: "flex items-center gap-2", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid size-8 place-items-center rounded-lg bg-primary text-primary-foreground font-display text-lg leading-none", children: "S" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "font-display text-xl tracking-tight", children: [
-          "Sikhya",
+          "Smart Book Store",
           /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gold", children: "." })
         ] })
       ] }),
@@ -243,7 +243,7 @@ function Home() {
           /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "text-balance font-display text-5xl leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl", children: [
             "Crack Punjab Government Exams with",
             " ",
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gradient-gold italic", children: "Confidence." })
+            " Confidence."
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mx-auto mt-6 max-w-2xl text-pretty text-base text-muted-foreground sm:text-lg", children: "Premium books, decoded syllabi, expert preparation guides and complete resources for Punjab Police, Patwari, Clerk, PPSC and PSPCL — trusted by thousands of successful aspirants." }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4", children: [
@@ -390,9 +390,9 @@ function Home() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute -right-32 top-0 size-[500px] rounded-full bg-gold/20 blur-3xl" }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-7xl px-4 sm:px-6", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-16 max-w-2xl", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-3 font-mono text-xs uppercase tracking-[0.2em] text-gold", children: "03 · Why Sikhya" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-3 font-mono text-xs uppercase tracking-[0.2em] text-gold", children: "03 · Why Smart Book Store" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-4xl tracking-tight sm:text-5xl", children: "Built for serious aspirants." }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-5 text-base text-primary-foreground/70", children: "Six reasons Sikhya has become the reference set for Punjab government exam preparation." })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-5 text-base text-primary-foreground/70", children: "Six reasons Smart Book Store has become the reference set for Punjab government exam preparation." })
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 gap-px overflow-hidden rounded-3xl bg-white/10 sm:grid-cols-2 lg:grid-cols-3", children: REASONS.map((r, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(motion.div, { initial: {
           opacity: 0
@@ -522,7 +522,7 @@ function Home() {
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid size-8 place-items-center rounded-lg bg-primary text-primary-foreground font-display text-lg leading-none", children: "S" }),
             /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "font-display text-xl", children: [
-              "Sikhya",
+              "Smart Book Store",
               /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gold", children: "." })
             ] })
           ] }),
@@ -545,7 +545,7 @@ function Home() {
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto mt-12 max-w-7xl border-t border-border/60 px-4 pt-6 text-xs text-muted-foreground sm:px-6", children: [
         "© ",
         (/* @__PURE__ */ new Date()).getFullYear(),
-        " Sikhya Premium Bookstore. All rights reserved."
+        " Smart Book Store Premium Bookstore. All rights reserved."
       ] })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://wa.me/919876543210", "aria-label": "Chat on WhatsApp", className: "fixed bottom-24 right-4 z-40 grid size-14 place-items-center rounded-full bg-[#25D366] text-white shadow-2xl transition hover:scale-110 active:scale-95 sm:bottom-6", children: /* @__PURE__ */ jsxRuntimeExports.jsx(MessageCircle, { className: "size-6" }) }),
