@@ -30,9 +30,9 @@ import bookPyq from "@/assets/book-pyq.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Sikhya — Crack Punjab Government Exams with Confidence" },
+      { title: "Smart Book Store — Crack Punjab Government Exams with Confidence" },
       { name: "description", content: "Premium books, updated syllabus, previous year papers and expert preparation guides for Punjab Police, Patwari, Clerk, PPSC and PSPCL exams." },
-      { property: "og:title", content: "Sikhya — Premium Punjab Government Exam Bookstore" },
+      { property: "og:title", content: "Smart Book Store — Premium Punjab Government Exam Bookstore" },
       { property: "og:description", content: "Trusted by thousands of successful aspirants across Punjab." },
       { property: "og:url", content: "/" },
     ],
@@ -78,7 +78,7 @@ const REASONS = [
 ];
 
 const TESTIMONIALS = [
-  { name: "Sarabjit Singh", exam: "Rank 42 — Punjab Police SI", quote: "Nearly 70% of GK in the actual paper was traceable to the Sikhya guide. Unmatched precision.", initials: "SS" },
+  { name: "Sarabjit Singh", exam: "Rank 42 — Punjab Police SI", quote: "Nearly 70% of GK in the actual paper was traceable to the Smart Book Store guide. Unmatched precision.", initials: "SS" },
   { name: "Amrit Kaur", exam: "Patwari, Bathinda", quote: "Cleared in my first attempt. The revenue paper notes alone are worth the entire bundle.", initials: "AK" },
   { name: "Deepak Sharma", exam: "Clerk-cum-DEO, Mohali", quote: "The solved PYQs saved me weeks of hunting through old papers. Pattern recognition became effortless.", initials: "DS" },
   { name: "Harleen Brar", exam: "PPSC Naib Tehsildar", quote: "The Punjab affairs section is exactly the depth Mains demands. Nothing else compares.", initials: "HB" },
@@ -113,7 +113,7 @@ function Home() {
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
           <a href="#" className="flex items-center gap-2">
             <div className="grid size-8 place-items-center rounded-lg bg-primary text-primary-foreground font-display text-lg leading-none">S</div>
-            <span className="font-display text-xl tracking-tight">Sikhya<span className="text-gold">.</span></span>
+            <span className="font-display text-xl tracking-tight">Smart Book Store<span className="text-gold">.</span></span>
           </a>
           <nav className="hidden items-center gap-8 text-sm font-medium text-muted-foreground md:flex">
             <a href="#categories" className="hover:text-foreground transition-colors">Exams</a>
@@ -166,8 +166,8 @@ function Home() {
             </div>
 
             <h1 className="text-balance font-display text-5xl leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
-              Crack Punjab Government Exams with{" "}
-              <span className="text-gradient-gold italic">Confidence.</span>
+              Crack Punjab Government Exams with{" "} Confidence.
+              {/* <span className="text-gradient-gold italic"></span> */}
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-pretty text-base text-muted-foreground sm:text-lg">
               Premium books, decoded syllabi, expert preparation guides and complete resources for Punjab Police, Patwari, Clerk, PPSC and PSPCL — trusted by thousands of successful aspirants.
@@ -317,9 +317,9 @@ function Home() {
         <div className="absolute -right-32 top-0 size-[500px] rounded-full bg-gold/20 blur-3xl" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mb-16 max-w-2xl">
-            <p className="mb-3 font-mono text-xs uppercase tracking-[0.2em] text-gold">03 · Why Sikhya</p>
+            <p className="mb-3 font-mono text-xs uppercase tracking-[0.2em] text-gold">03 · Why Smart Book Store</p>
             <h2 className="font-display text-4xl tracking-tight sm:text-5xl">Built for serious aspirants.</h2>
-            <p className="mt-5 text-base text-primary-foreground/70">Six reasons Sikhya has become the reference set for Punjab government exam preparation.</p>
+            <p className="mt-5 text-base text-primary-foreground/70">Six reasons Smart Book Store has become the reference set for Punjab government exam preparation.</p>
           </div>
 
           <div className="grid grid-cols-1 gap-px overflow-hidden rounded-3xl bg-white/10 sm:grid-cols-2 lg:grid-cols-3">
@@ -487,7 +487,7 @@ function Home() {
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2">
               <div className="grid size-8 place-items-center rounded-lg bg-primary text-primary-foreground font-display text-lg leading-none">S</div>
-              <span className="font-display text-xl">Sikhya<span className="text-gold">.</span></span>
+              <span className="font-display text-xl">Smart Book Store<span className="text-gold">.</span></span>
             </div>
             <p className="mt-4 max-w-xs text-sm text-muted-foreground">Premium study material for Punjab Government Exams. Made with care in Chandigarh.</p>
           </div>
@@ -505,7 +505,7 @@ function Home() {
           ))}
         </div>
         <div className="mx-auto mt-12 max-w-7xl border-t border-border/60 px-4 pt-6 text-xs text-muted-foreground sm:px-6">
-          © {new Date().getFullYear()} Sikhya Premium Bookstore. All rights reserved.
+          © {new Date().getFullYear()} Smart Book Store Premium Bookstore. All rights reserved.
         </div>
       </footer>
 
